@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Elegance Beauty Studio este un concept demonstrativ de salon de înfrumusețare. Descoperă servicii și tarife orientative."
+    />
+    <meta name="theme-color" content="#f5f1e8" />
+    <title>Elegance Beauty Studio | Frumusețe cu intenție</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#continut">Sari la conținut</a>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Elegance Beauty Studio, pagina principală">
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span class="brand-name">Elegance <span>Beauty Studio</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Deschide meniul"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Navigare principală">
+        <a href="#servicii">Servicii</a>
+        <a href="#tarife">Tarife</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#studio">Despre noi</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-booking" href="#contact">Programează-te <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="continut">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=2200&q=88"
+          alt="Portret editorial de beauty, imagine demonstrativă"
+          fetchpriority="high"
+        />
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span></span> Studio fictiv · date demonstrative</p>
+          <h1 id="hero-title">Elegance<br />Beauty Studio</h1>
+          <p class="hero-copy">Frumusețea ta, în ritmul tău.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#servicii">Descoperă serviciile <span aria-hidden="true">↘</span></a>
+            <a class="text-link light-link" href="#studio">Povestea noastră</a>
+          </div>
+        </div>
+        <p class="hero-side-note">Un ritual doar al tău <span>—</span> București, demo</p>
+        <a class="hero-scroll" href="#servicii" aria-label="Derulează la servicii"><span></span></a>
+      </section>
+
+      <section class="intro section-wrap" aria-label="Introducere">
+        <p class="eyebrow reveal">Timp pentru tine</p>
+        <p class="intro-copy reveal">Un spațiu în care <em>grija devine ritual</em>, iar fiecare detaliu este gândit să te facă să te simți bine în pielea ta.</p>
+        <p class="demo-note">Concept fictiv. Informațiile de pe această pagină sunt demonstrative.</p>
+      </section>
+
+      <section class="services section-wrap" id="servicii" aria-labelledby="services-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow">Ritualuri de frumusețe</p>
+            <h2 id="services-title">Servicii create<br /><em>pentru tine</em></h2>
+          </div>
+          <p class="section-aside">Momente mici de răsfăț,<br />cu atenție la fiecare detaliu.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-item reveal">
+            <span class="service-number">01</span>
+            <div>
+              <h3>Manichiură</h3>
+              <p>Formă, îngrijire și culoarea care ți se potrivește.</p>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-item reveal">
+            <span class="service-number">02</span>
+            <div>
+              <h3>Coafor</h3>
+              <p>Tuns și styling cu un finisaj natural, ușor de purtat.</p>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-item reveal">
+            <span class="service-number">03</span>
+            <div>
+              <h3>Machiaj</h3>
+              <p>Look-uri luminoase, de la subtil la ocazii speciale.</p>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-item reveal">
+            <span class="service-number">04</span>
+            <div>
+              <h3>Sprâncene</h3>
+              <p>Stilizare atentă, păstrând expresia ta naturală.</p>
+            </div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="pricing" id="tarife" aria-labelledby="pricing-title">
+        <div class="pricing-inner section-wrap">
+          <div class="pricing-heading reveal">
+            <p class="eyebrow">Investiție în starea ta de bine</p>
+            <h2 id="pricing-title">Tarife<br /><em>orientative</em></h2>
+            <p>Prețuri fictive, incluse pentru demonstrarea designului. Tariful final depinde de serviciul ales.</p>
+            <a class="text-link dark-link" href="#contact">Întreabă-ne despre o programare <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="price-list reveal" aria-label="Listă de prețuri demonstrative">
+            <div class="price-row"><span>Manichiură clasică</span><span>120 lei</span></div>
+            <div class="price-row"><span>Manichiură semipermanentă</span><span>180 lei</span></div>
+            <div class="price-row"><span>Tuns &amp; styling</span><span>de la 220 lei</span></div>
+            <div class="price-row"><span>Machiaj de zi</span><span>250 lei</span></div>
+            <div class="price-row"><span>Stilizare sprâncene</span><span>100 lei</span></div>
+            <p class="price-footnote">* Toate tarifele sunt exemple fictive, în lei.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-wrap" id="galerie" aria-labelledby="gallery-title">
+        <div class="section-heading gallery-heading reveal">
+          <div>
+            <p class="eyebrow">Inspirație</p>
+            <h2 id="gallery-title">Frumusețea stă<br /><em>în detalii</em></h2>
+          </div>
+          <p class="section-aside">Imagini demonstrative Unsplash.<br />Nu reprezintă lucrări ale salonului.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-tall reveal">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=85" alt="Atmosferă de salon, fotografie demonstrativă" loading="lazy" />
+            <figcaption><span>01</span> Un moment pentru tine</figcaption>
+          </figure>
+          <figure class="gallery-item gallery-short reveal">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=85" alt="Detaliu de manichiură, fotografie demonstrativă" loading="lazy" />
+            <figcaption><span>02</span> Detalii atent lucrate</figcaption>
+          </figure>
+          <figure class="gallery-item gallery-short reveal">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1000&q=85" alt="Ritual de beauty, fotografie demonstrativă" loading="lazy" />
+            <figcaption><span>03</span> Frumusețe fără efort</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="about" id="studio" aria-labelledby="about-title">
+        <div class="about-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1400&q=85"
+            alt="Scaun de salon și instrumente de coafură, imagine demonstrativă"
+            loading="lazy"
+          />
+          <span class="image-label">Imagine demonstrativă</span>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow reveal">Despre studio</p>
+          <h2 id="about-title" class="reveal">Frumusețea ta,<br /><em>fără grabă.</em></h2>
+          <p class="about-lead reveal">Elegance Beauty Studio este un concept fictiv, imaginat ca un loc cald și liniștit, unde atenția la detalii întâlnește grija autentică.</p>
+          <p class="about-detail reveal">Am creat această pagină ca demonstrație de design. Echipa, serviciile, adresa și programul afișate nu aparțin unei afaceri reale.</p>
+          <a class="text-link dark-link reveal" href="#contact">Hai să povestim <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner section-wrap">
+          <div class="contact-heading reveal">
+            <p class="eyebrow">Următorul tău ritual</p>
+            <h2 id="contact-title">Un moment<br />doar <em>pentru tine.</em></h2>
+            <p>Scrie-ne pentru detalii sau pentru a discuta despre o programare.</p>
+            <a class="button button-gold" data-whatsapp href="https://wa.me/" target="_blank" rel="noreferrer">Programează-te pe WhatsApp <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="contact-details reveal">
+            <div>
+              <p class="eyebrow">Ne găsești</p>
+              <p>București<br />Adresă demonstrativă</p>
+            </div>
+            <div>
+              <p class="eyebrow">Program demonstrativ</p>
+              <p>Ma–Vi &nbsp; 10:00–19:00<br />Sâmbătă &nbsp; 10:00–16:00</p>
+            </div>
+            <p class="contact-disclaimer">Datele de contact și programul sunt fictive. Butonul WhatsApp deschide aplicația cu un mesaj pregătit; alege conversația dorită.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#top" aria-label="Elegance Beauty Studio, înapoi sus">
+        <span class="brand-mark" aria-hidden="true">E</span>
+        <span class="brand-name">Elegance <span>Beauty Studio</span></span>
+      </a>
+      <p>Concept fictiv · Date demonstrative</p>
+      <a class="back-to-top" href="#top">Înapoi sus ↑</a>
+      <span class="footer-year">© <span id="current-year">2026</span></span>
+    </footer>
+  </body>
+</html>
